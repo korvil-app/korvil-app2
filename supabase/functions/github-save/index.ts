@@ -5,7 +5,7 @@ const corsHeaders = {
 };
 
 const GH_OWNER = "korvil-app";
-const GH_REPO = "korvil-app1";
+const GH_REPO = "korvil-app2";
 const BRANCH = "main";
 
 interface SaveBody {

@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react';
 
-const REPO = 'korvil-app/korvil-app1';
+const REPO = 'korvil-app/korvil-app2';
 const CHECK_INTERVAL = 10_000;
 
 export default function PWAUpdater() {

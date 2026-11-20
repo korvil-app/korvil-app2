@@ -22,7 +22,7 @@ export interface KorvilSection {
   }[];
 }
 
-const RAW = 'https://github.com/korvil-app/korvil-app1/blob/main';
+const RAW = 'https://github.com/korvil-app/korvil-app2/blob/main';
 
 export const SECTIONS: KorvilSection[] = [
   {
