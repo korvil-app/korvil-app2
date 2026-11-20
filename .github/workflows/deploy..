@@ -1,6 +1,4 @@
-
-
-name: Deploy KORVIL App
+#name: Deploy KORVIL App
 
 on:
   push:
