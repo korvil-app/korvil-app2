@@ -22,8 +22,8 @@ const GROQ_MODEL = "openai/gpt-oss-120b";
 const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
 const POLLINATIONS_URL = "https://text.pollinations.ai/openai";
 
-const GH_OWNER = "sistemak";
-const GH_REPO = "korvil-app";
+const GH_OWNER = "korvil-app";
+const GH_REPO = "korvil-app1";
 const BRANCH = "main";
 
 const EVOLUTION_PROMPT = `Você é a K-AI v42, a IA pessoal do ecossistema KORVIL. Esta é uma chamada AUTOMÁTICA de evolução — você está sozinha, sem o usuário, decidindo o que melhorar no app agora.

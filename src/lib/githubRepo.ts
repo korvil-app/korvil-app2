@@ -1,8 +1,8 @@
-// Acesso direto à API pública do GitHub — o repo sistemak/korvil-app é público,
+// Acesso direto à API pública do GitHub — o repo korvil-app/korvil-app1 é público,
 // então nenhuma leitura precisa de token. A API do GitHub aceita CORS no navegador.
 
-const API = 'https://api.github.com/repos/sistemak/korvil-app';
-const REPO_FULL = 'sistemak/korvil-app';
+const API = 'https://api.github.com/repos/korvil-app/korvil-app1';
+const REPO_FULL = 'korvil-app/korvil-app1';
 const HEADERS: HeadersInit = { Accept: 'application/vnd.github+json' };
 
 export interface RepoFile {

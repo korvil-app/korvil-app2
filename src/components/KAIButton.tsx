@@ -883,7 +883,7 @@ export default function KAIButton({ onNavigateSection, onOpenLoja }: Props) {
             pushWhisper('Abra o ícone da sua conta no topo para configurar o perfil.');
           }
           if (target === 'bolt') window.open('https://bolt.new', '_blank');
-          if (target === 'github') window.open('https://github.com/sistemak/korvil-app', '_blank');
+          if (target === 'github') window.open('https://github.com/korvil-app/korvil-app1', '_blank');
           if (target === 'keditor') setKeditorOpen(true);
           if (target === 'evolucao') setEvolutionOpen(true);
         }}

@@ -8,8 +8,8 @@ import { ACESSO_TRANSFORMACAO_NEGADO, verificarIdentidadeTransformacao } from '@
 
 const SESSAO_ALUNO_KEY = 'ktp_sessao_aluno';
 
-const LOGO_KTP = 'https://github.com/sistemak/korvil-app/blob/main/korvil/sections/ktp/assets/images/logoktp.png?raw=true';
-const LOGO_PROJETO = 'https://github.com/sistemak/korvil-app/blob/main/korvil/sections/ktp/projetotransformacao/assets/imagens/logoprojetotransformacao.png?raw=true';
+const LOGO_KTP = 'https://github.com/korvil-app/korvil-app1/blob/main/korvil/sections/ktp/assets/images/logoktp.png?raw=true';
+const LOGO_PROJETO = 'https://github.com/korvil-app/korvil-app1/blob/main/korvil/sections/ktp/projetotransformacao/assets/imagens/logoprojetotransformacao.png?raw=true';
 
 const IDS_PERMITIDOS = [
   'ktp0', 'mag1', 'mcarla2', 'hvitoria3', 'alexandra4', 'michele5', 'aline6',

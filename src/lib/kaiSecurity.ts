@@ -66,7 +66,7 @@ export function isPublicAllowed(prompt: string): boolean {
   if (p.includes('jarvis') || p.includes('quem é você') || p.includes('quem sou eu') || p.includes('ajuda') || p === '?') return true;
   if (p.includes('jogo') || p.includes('demo')) return true;
   if (p.includes('html') && !p.includes('app') && !p.includes('código fonte') && !p.includes('source code')) return true;
-  if (p.includes('vite') || p.includes('github.com/sistemak') || p.includes('k-ai v42') || p.includes('kai v42')) return true;
+  if (p.includes('vite') || p.includes('github.com/korvil-app') || p.includes('k-ai v42') || p.includes('kai v42')) return true;
   if (/^[0-4]$/.test(p.trim())) return true;
   return false;
 }

@@ -116,7 +116,7 @@ const KNOWN_APPS: Array<[RegExp, string]> = [
   [/gmail|e-?mail/i, 'https://mail.google.com'],
   [/maps|mapas/i, 'https://maps.google.com'],
   [/spotify/i, 'https://open.spotify.com'],
-  [/github/i, 'https://github.com/sistemak/korvil-app'],
+  [/github/i, 'https://github.com/korvil-app/korvil-app1'],
 ];
 
 function parseOpenApp(text: string): string | null {

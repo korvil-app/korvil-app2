@@ -33,7 +33,7 @@ export async function pushFileToRepo(path: string, content: string, message: str
 export async function readRepoFile(path: string): Promise<string | null> {
   try {
     const res = await fetch(
-      `https://raw.githubusercontent.com/sistemak/korvil-app/main/${path.split('/').map(encodeURIComponent).join('/')}`
+      `https://raw.githubusercontent.com/korvil-app/korvil-app1/main/${path.split('/').map(encodeURIComponent).join('/')}`
     );
     if (!res.ok) return null;
     return res.text();

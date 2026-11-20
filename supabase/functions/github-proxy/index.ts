@@ -4,8 +4,8 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Client-Info, Apikey",
 };
 
-const GH_OWNER = "sistemak";
-const GH_REPO = "korvil-app";
+const GH_OWNER = "korvil-app";
+const GH_REPO = "korvil-app1";
 
 // O repositório é público: todas as leituras usam a API pública do GitHub, sem token.
 Deno.serve(async (req: Request) => {

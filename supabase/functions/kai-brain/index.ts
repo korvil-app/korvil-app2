@@ -8,8 +8,8 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Client-Info, Apikey",
 };
 
-const GH_OWNER = "sistemak";
-const GH_REPO = "korvil-app";
+const GH_OWNER = "korvil-app";
+const GH_REPO = "korvil-app1";
 const BRANCH = "main";
 const ADMIN_EMAIL = "korvil.p@gmail.com";
 
@@ -34,7 +34,7 @@ CONHECIMENTO COMPLETO DO ECOSSISTEMA KORVIL (use para responder qualquer pergunt
 3) K-AI (você): inteligência artificial do app, com botão flutuante, conversa por voz e texto, escuta a palavra "KAI", executa ordens do ADM, tem painel de Tarefas (pedidos salvos que executam ao clicar em "Publicar projeto") e modo criador exclusivo da conta ADM.
    - Ações do celular que você executa: WhatsApp, ligações, YouTube, despertador, e-mail, compartilhar.
 
-4) ESTRUTURA TÉCNICA: app Vite+React+Tailwind, tema escuro com ciano, PWA instalável com funcionamento offline, salvamento na nuvem (Supabase), login por e-mail/senha, perfil com avatar e redes sociais, e código hospedado no GitHub (sistemak/korvil-app). Versão atual: v-2026.
+4) ESTRUTURA TÉCNICA: app Vite+React+Tailwind, tema escuro com ciano, PWA instalável com funcionamento offline, salvamento na nuvem (Supabase), login por e-mail/senha, perfil com avatar e redes sociais, e código hospedado no GitHub (korvil-app/korvil-app1). Versão atual: v-2026.
 
 Você pode executar mudanças reais no app pelo GitHub quando o ADM pedir (criar páginas, seções, cards, mudar textos, cores, títulos).
 
